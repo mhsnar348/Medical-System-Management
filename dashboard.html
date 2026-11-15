@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediCare | Dashboard</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body class="admin-page">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="Images/hospital.png" alt="" /><a href="index.html"
+          ><h2>MediCare</h2></a
+        >
+      </div>
+      <nav>
+        <a href="dashboard.html" class="active"
+          ><img src="Images/main-menu.png" alt="" /><span>Main Menu</span></a
+        >
+        <a href="doctors.html" class=""
+          ><img src="Images/medical-assistance.png" alt="" /><span
+            >Doctors</span
+          ></a
+        >
+        <a href="patients.html" class=""
+          ><img src="Images/audience.png" alt="" /><span>Patients</span></a
+        >
+      </nav>
+    </aside>
+    <div class="main-container">
+      <header class="header">
+        <div class="search-box">
+          <input type="search" placeholder="Search here..." />
+        </div>
+        <div class="admin">
+          <img src="Images/circle.png" alt="Notifications" />
+          <div class="admin-info">
+            <img src="Images/user.png" alt="Admin" />
+            <div>
+              <h4>Administrator</h4>
+              <span>Admin</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <div class="page-title">
+          <h1>Dashboard</h1>
+          <p>Welcome! Here's what's happening today.</p>
+        </div>
+        <section class="stats-grid">
+          <div class="stat-card">
+            <h3>Total Doctors</h3>
+            <h2>24</h2>
+            <p>Registered doctors</p>
+          </div>
+          <div class="stat-card">
+            <h3>Total Patients</h3>
+            <h2>350</h2>
+            <p>Registered patients</p>
+          </div>
+          <div class="stat-card">
+            <h3>Appointments</h3>
+            <h2>85</h2>
+            <p>Total appointments</p>
+          </div>
+          <div class="stat-card">
+            <h3>Today's Appointments</h3>
+            <h2>4</h2>
+            <p>Registered appointments</p>
+          </div>
+        </section>
+        <section class="panel">
+          <div class="section-header">
+            <h2>Recent Appointments</h2>
+            <a href="appointments.html">View All</a>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Patient Name</th>
+                  <th>Doctor</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ahmed Mohammed Ali</td>
+                  <td>Dr. Khaled Ahmed</td>
+                  <td>16-NOV-2026</td>
+                  <td>09:00 AM</td>
+                  <td><span class="status confirmed">Confirmed</span></td>
+                </tr>
+                <tr>
+                  <td>Fatima Hassan Salem</td>
+                  <td>Dr. Mohammed Abdullah</td>
+                  <td>16-NOV-2026</td>
+                  <td>10:30 AM</td>
+                  <td><span class="status confirmed">Confirmed</span></td>
+                </tr>
+                <tr>
+                  <td>Mohammed Ali Omar</td>
+                  <td>Dr. Ahmed Saeed</td>
+                  <td>16-NOV-2026</td>
+                  <td>11:00 AM</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Sara Khaled Hassan</td>
+                  <td>Dr. Youssef Mohammed</td>
+                  <td>15-NOV-2026</td>
+                  <td>01:00 PM</td>
+                  <td><span class="status cancelled">Cancelled</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>Copyright &copy; 2026 MediCare. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

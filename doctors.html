@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCare | Doctors</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="admin-page">
+  <aside class="sidebar">
+    <div class="logo"><img src="Images/hospital.png" alt=""><a href="index.html"><h2>MediCare</h2></a></div>
+    <nav><a href="dashboard.html" class=""><img src="Images/main-menu.png" alt=""><span>Main Menu</span></a>
+<a href="doctors.html" class="active"><img src="Images/medical-assistance.png" alt=""><span>Doctors</span></a>
+<a href="patients.html" class=""><img src="Images/audience.png" alt=""><span>Patients</span></a></nav>
+  </aside>
+  <div class="main-container">
+    <header class="header">
+      <div class="search-box"><input type="search" placeholder="Search here..."></div>
+      <div class="admin">
+        <img src="Images/circle.png" alt="Notifications">
+        <div class="admin-info"><img src="Images/user.png" alt="Admin"><div><h4>Administrator</h4><span>Admin</span></div></div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="page-title"><h1>Doctors Management</h1><p>Manage doctors and their information.</p></div>
+      <form class="filters" action="#" method="get">
+        <input type="search" name="q" placeholder="Search by name or specialty...">
+        <select name="department"><option value="">All Departments</option><option>Cardiology</option><option>Pediatrics</option><option>Orthopedics</option><option>Gynecology</option><option>Internal Medicine</option><option>Dermatology</option></select>
+      </form>
+      <section class="doctor-grid"><article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Ahmed Khaled</h3><p class="doctor-role">Cardiologist</p><p class="doctor-dept">Cardiology</p><p class="doctor-exp">8 years experience</p></div></div><button type="button">View Details</button></article>
+<article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Sara Ahmed</h3><p class="doctor-role">Pediatrician</p><p class="doctor-dept">Pediatrics</p><p class="doctor-exp">6 years experience</p></div></div><button type="button">View Details</button></article>
+<article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Khaled Ali</h3><p class="doctor-role">Orthopedic Surgeon</p><p class="doctor-dept">Orthopedics</p><p class="doctor-exp">10 years experience</p></div></div><button type="button">View Details</button></article>
+<article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Leyla Saad</h3><p class="doctor-role">Gynecologist</p><p class="doctor-dept">Gynecology</p><p class="doctor-exp">7 years experience</p></div></div><button type="button">View Details</button></article>
+<article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Omar Hassan</h3><p class="doctor-role">General Physician</p><p class="doctor-dept">Internal Medicine</p><p class="doctor-exp">3 years experience</p></div></div><button type="button">View Details</button></article>
+<article class="doctor-card"><div class="doctor-info"><div class="avatar"></div><div><h3>Dr. Nour Adel</h3><p class="doctor-role">Dermatologist</p><p class="doctor-dept">Dermatology</p><p class="doctor-exp">4 years experience</p></div></div><button type="button">View Details</button></article></section>
+
+    </main>
+    <footer class="footer"><p>Copyright &copy; 2026 MediCare. All Rights Reserved.</p></footer>
+  </div>
+</body>
+</html>
